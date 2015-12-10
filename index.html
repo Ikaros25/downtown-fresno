@@ -8,8 +8,11 @@
         <meta name="description" content="Welcome to Martin Jimenez offical website. I love Ratchet and Clank and PlayStation"/>
         <meta name="keywords" content="martin,jimenez,first website,web application developer,coding,downtown fresno,"/>
         <meta name="author" content="Martin Jimenez"/>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
         
         <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/mobile-menu.css" type="text/css" />
+        <!--<link href='https://fonts.googleapis.com/css?family=Kaushan+Script|Sigmar+One|Indie+Flower|Coming+Soon|Faster+One|Finger+Paint|Freckle+Face&subset=latin,latin-ext' rel='stylesheet' type='text/css'>-->
         <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
@@ -18,13 +21,15 @@
                 <figure>
                     <!--<a href="index.html" id="logo"><img src="" alt="Martin Jimenez logo"/></a>-->
                     
-                    <h1><a href="index.html" id="logo">Martin Jimenez</a></a></h1>
+                    <h1><a href="index.html" id="logo">Martin Jimenez</a></h1>
                 </figure>
-                <nav id="menu">
-                    <ul>
+                <nav id="menu" class="mobile">
+                    <!--<a></a>-->
+                    <input type="checkboox" id="nav"/><label for="nav">MENU</label>
+                    <ul id="mobileMenu">
                         <li class="currentPage"><a href="index.html" title="Home Page">Home</a></li>
                         <li><a href="about.html" title="About Page">About Martin</a></li>
-                        <li><a href="gallery.html"title="Gallery Page">Gallery</a></li>
+                        <li><a href="gallery.html" title="Gallery Page">Gallery</a></li>
                         <li><a href="contact.html" title="Contact Page">Contact</a></li>
                         <li><a href="typing.html" title="Typing Page">Typing</a></li>
                     </ul>
@@ -32,7 +37,7 @@
             </div>
         </header>
         <div id="bannerHome">
-            <h1 class="bannerTitle">Hello and Welcome</h1>
+            <h1 class="bannerTitle">Downtown Fresno Revitilization</h1>
             <!--???-->
             <div id="bannerButton">
                <a href="about.html" class="button" title="Information about Martin Jimenez" >button</a>
@@ -41,26 +46,26 @@
         <section class="mainwidth" id="main">
             
             <!-- COLUMN (A) STARTS HERE-->
-            <section class="box1">
+            <section id="box1">
             <article class="columnA">
                 <h2>PlayStation</h2>
                     <figure class="likeImage">
-                        <a href="http://www.playstation.com" title="This picture will take yu to PlayStation offical website" target="_blank" class="image image-full"><img src="images/play-op.jpg" title="A playstation picture" alt="PlayStation logo"/></a>
+                        <a href="http://www.playstation.com" title="This picture will take yu to PlayStation offical website" target="_blank" class="image image-full"><img src="images/" title="A playstation picture" alt="PlayStation logo"/></a>
                     </figure>
                 <span>PlayStation Rocks</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aspernatur explicabo dicta praesentium assumenda eligendi at optio? Nobis, molestias, tenetur impedit a quibusdam neque laboriosam dolor. Atque, assumenda dicta quibusdam!</p>
-                <a href="#"class="button" target="_blank" title="PlayStation Button!">PlayStation Button</a>
+                <a href="#" class="button" target="_blank" title="PlayStation Button!">PlayStation Button</a>
             </article>
             </section>
             <!-- COLUMN (A) ENDS HERE-->
             
                         
             <!-- COLUMN (B) STARTS HERE-->
-            <section class="box2">
+            <section id="box2">
             <article class="columnB">
                 <h2>Ratchet and Clank</h2>
                     <figure class="likeImage">
-                        <a href="http://ratchet.wikia.com/wiki/Ratchet_%26_Clank_wiki" title="This will take you to the ratchet and Clank wiki" target="_blank" class="image image-full"><img src="images/ratchet-op.jpg" title="A playstation picture" alt="Ratchet and Clank logo"/></a>
+                        <a href="http://ratchet.wikia.com/wiki/Ratchet_%26_Clank_wiki" title="This will take you to the ratchet and Clank wiki" target="_blank" class="image image-full"><img src="images/" title="A playstation picture" alt="Ratchet and Clank logo"/></a>
                     </figure>
                 <span>Ratchet and Clank Rocks</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aspernatur explicabo dicta praesentium assumenda eligendi at optio? Nobis, molestias, tenetur impedit a quibusdam neque laboriosam dolor. Atque, assumenda dicta quibusdam!</p>
@@ -70,11 +75,11 @@
             <!-- COLUMN (B) ENDS HERE-->
             
              <!-- COLUMN (C) STARTS HERE-->
-             <section clas="box3">
+             <section id="box3">
             <article class="columnC">
                 <h2>Fairy Tial</h2>
                     <figure class="likeImage">
-                        <a href="http://www.playstation.com" title="This picture will take you to Funimation so you can see Fairy Tial" target="_blank" class="image image-full"><img src="images/nastu-op.jpg" title="A playstation picture" alt="PlayStation logo"/></a>
+                        <a href="http://www.playstation.com" title="This picture will take you to Funimation so you can see Fairy Tial" target="_blank" class="image image-full"><img src="images/" title="A playstation picture" alt="PlayStation logo"/></a>
                     </figure>
                 <span>Fairy tail Rocks</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor aspernatur explicabo dicta praesentium assumenda eligendi at optio? Nobis, molestias, tenetur impedit a quibusdam neque laboriosam dolor. Atque, assumenda dicta quibusdam!</p>
@@ -87,7 +92,7 @@
         <section class="mainwidth">
             <aside class="alignLeft">
                 <figure> 
-                    <img src="images/martin-op.jpg"  title="martins picture" alt""/>
+                    <img src="images/"  title="martins picture" alt""/>
                 </figure>
             </aside>
         <article>

@@ -8,6 +8,7 @@ GLOBAL STYLES FOR NON MOBILE SITE
     /*{*COLOR:#0000FF;} BE CAREFUL USING THIS GLOBAL SELECTOR*/
 
 
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script|Sigmar+One|Indie+Flower|Coming+Soon|Faster+One|Finger+Paint|Freckle+Face&subset=latin,latin-ext);
 
 html, body{
     height:100%;
@@ -16,11 +17,12 @@ body{
     margin:0px;
     padding:0px;
     background-color:#FFFFFF;
-    font-family:'Lucida Sans',Verdana, sans-serif;
+    /*font-family:'Lucida Sans',Verdana, sans-serif;*/
     font-size:16px;
     font-weight:500;
     color:#000000;
     cursor:wait;
+    font-family: 'Coming Soon', cursive;
 }
 h1, h2, h3{
     margin:0px;
@@ -31,6 +33,7 @@ h1, h2, h3{
 h1{
     font-size:3em;
     background-color:#999999;
+    font-family: 'Kaushan Script', cursive;
 }
 p{
     margin:15px 0px;
@@ -134,6 +137,7 @@ header{
     color:#FFFFFF;
     font-size:4em;
     text-shadow:6px 6px 6px #000000;
+    font-family: 'Faster One', cursive;
 }
 .backgroundImage{
     background:url(../images/jellybeans);
@@ -149,8 +153,9 @@ header{
 .mainwidth{
     width:1200px;
     margin:0px auto;
+    overflow:hidden;
 }
-main{
+#main{
     margin-bottom:25px;
 }
 
@@ -208,6 +213,7 @@ a.button, .button {
     text-transform:uppercase;
     width:300px;
     margin:0px auto;
+    font-family: 'Finger Paint', cursive;
 }
 
 .button:hover{
@@ -362,8 +368,89 @@ textarea{
 }
 .fa:hover{}
 .fa-facebook{background-color:#0C516E;}
+/*====================================MEDIA DEVICE ONLY=====================================*/
+@media screen and (max-width: 1024px) {
+      body {
+        background-color:#b3d9ff;
+    }
+    #box1, #box2, #box3 {
+        width:auto;
+        margin:15px auto 20px auto;
+    }
+    h3 {
+        font-size:2em;
+    }
+    h4 {
+        font-size:1.75em;
+    }
+    p {
+        font-size:1.25em;
+    }
+    
+    /*#box3 {*/
+    /*    display:none;*/
+    /*    visibility:hidden;*/
+    /*}*/
+    
+    .columnImages {
+        width:90%;
+    }
+    
+    #mainBody {
+        width:100%;
+        margin:0px auto;
+    }
+}
+ 
 
+@media screen and (max-width: 1024px) {
+    body {
+        background-color:#b3d9ff;
+    }
+    #box1, #box2, #box3 {
+        width:auto;
+        margin:15px auto 20px auto;
+        clear:both;
+    }
+    h3 {
+        font-size:2em;
+    }
+    h4 {
+        font-size:1.75em;
+    }
+    p {
+        font-size:1.25em;
+    }
+    
+    /*#box3 {*/
+    /*    display:none;*/
+    /*    visibility:hidden;*/
+    /*}*/
+    
+    .columnImages {
+        width:90%;
+    }
+    
+    #mainBody {
+        width:100%;
+        margin:0px auto;
+    }
 
+}
+
+/* ===================TARGETING MOBILE PHONES ========================= */
+
+@media screen and (max-width: 325px) {
+    
+ 
+}
+
+/* ======== TARGETING WEARABLE DEVICES - LIKE WATCHES ======== */
+
+@media screen and (max-width: 100px) {
+    
+ 
+}
 
 
 

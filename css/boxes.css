@@ -24,7 +24,7 @@ body {
 }
 
 #box1 {
-    background-color:#663300;
+    background-color:#0000FF;
 }
 
 #box2 {
@@ -52,7 +52,7 @@ body {
     }
     #box1, #box2, #box3 {
         width:auto;
-        margin:1% auto;
+        margin:15px auto 20px auto;
     }
     h3 {
         font-size:2em;
@@ -63,17 +63,19 @@ body {
     p {
         font-size:1.25em;
     }
-    #box3 {
-        display:none;
-        /*visibility:hidden;*/
-    }
+    
+    /*#box3 {*/
+    /*    display:none;*/
+    /*    visibility:hidden;*/
+    /*}*/
+    
     .columnImages {
         width:90%;
     }
     
     #mainBody {
         width:100%;
-        margin:20px auto;
+        margin:0px auto;
     }
 
 }
