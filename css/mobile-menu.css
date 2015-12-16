@@ -24,7 +24,7 @@
 }
 
 .columnA h2, .columnB h2, columnC h2 {
-    font-size:3e;
+    font-size:3em;
 }
 
 @media screen and (max-width:100px) {
